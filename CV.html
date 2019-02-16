@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <meta name="description" content="Resume">
+
+        <!-- --link Bootstrap-- -->
+        <link rel="stylesheet" href="./css/stylesheet.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <!--AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+        <title>My Resume</title>
+    </head>
+    <body>
+        <!-------------------Nav-------------------------------->
+        <nav>       
+            <div class="navbar fixed-top navbar-expand-lg navbar-light bg-light standerNavBar">
+                <div class="collapse navbar-collapse standerNavBar" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav">  
+                        <li class="nav-item "><a class="nav-link" href="#aboutMe">About</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </di>
+            <div class="pos-f-t">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-light p-4">
+                            <a class="nav-link" href="#aboutMe">About</a>
+                            <a class="nav-link" href="#skills">Skills</a>
+                            <a class="nav-link" href="#experience">Experience</a>
+                            <a class="nav-link" href="#">Contact</a>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="navbar navbar-light bg-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+        </nav>
+        <!------------------------Header----------------------------->
+       <header>
+           <div class="container-fluid header-container">
+               <div class="header-container-profile">
+                    <a class="header-container-profile-img"><img src="./res/DSC_0127.jpg" alt="profile image" class="header-container-profile-img img-thumbnail "></a>
+                </div>
+                <div class="header-container-title">
+                    <h1  class="header-container-profile-name text-secondary">Samira Almatar</h1>
+                    <h5 class="role text-secondary">Software Developer</h5>
+                </div>
+           </div>
+       </header>
+       <!--------------------------body--------------------->
+       <div class="container-fluid wapper">
+           <div class="wapper-socialMedia-bar">
+               <!--Linkedin-->
+                <a href="https://www.linkedin.com/in/samira-almatar/" ><i class="fab fa-linkedin-in"></i></a>
+                <!--Github-->
+                <a href="https://github.com/SamiraAlmatar"><i class="fab fa-github"></i></a>
+                <!--Stack Overflow-->
+                <a href="https://stackoverflow.com/users/9852951/samm-almatar"><i class="fab fa-stack-overflow"></i></a>
+                <!--Slack-->
+                <a ><i class="fab fa-slack"></i></a>
+                <!--Facebook-->
+                <a href="https://www.facebook.com/Sammura.MG"><i class="fab fa-facebook-f"></i></a>
+           </div>
+           <!-- #region AboutME-->
+           <div id="aboutMe" data-aos="flip-left"
+                             data-aos-easing="ease-out-cubic"
+                             data-aos-duration="2000" 
+                             class="row shadow-lg p-3 mb-5 bg-white rounded wapper-about-me">
+                <div class="about col-lg-6 col-md-10 col-sm-12">
+                    <h2 >About Me</h2>
+                    <div class="about-details">
+                        <p>Hello! I am Samira Almatar, Software Developer with one year Experience.<br>
+                            My education offered me a strong foundation in software engineering and programming principles across multiple platforms.
+                            Experienced in object-oriented programming; developing, testing and debugging code.</p>
+                    </div>
+                </div>
+               
+                <div class="info col-lg-6 col-md-10 col-sm-12">
+                    <h3>Basic Information</h3>
+                    <div class="info-title">
+                        <div class="info-details">
+                            <div ><strong>EMAIL:</strong></div> <!--text-uppercase-->
+                            <div><p>almatar.samira@gmail.com</p></div>
+                        </div>
+                        <div class="info-details">
+                            <div><strong>PHONE:</strong></div>
+                            <div><p>+44-7478434590</p></div>
+                        </div>
+                        <div class="info-details">
+                            <div><strong>ADDRESS:</strong></div>
+                            <div><p>11 Montreal St. Greater Manchester M19 3BY</p></div>
+                        </div>
+                        <div class="info-details">
+                            <div><strong>LANGUAGE:</strong></div>
+                            <div><p>English, Arabic</p></div>
+                        </div>
+                                                                        
+                    </div>
+                </div>
+            </div><!--end of about me-->
+            <!-- #endregion AboutMe-->
+            <!-- #region Skills-->
+            <div id="skills" class="row shadow-lg p-3 mb-5 bg-white rounded wapper-skills">
+                <div class=" col-lg-6 col-md-10 col-sm-12 skill-categ SoftwareDevelopment ">
+                   <h4>Software Development</h4>
+                   <div class="skill">
+                       <h6 class="text-secondary">C#.Net</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                            
+                             class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                   </div>
+                   <div class="skill">
+                        <h6 class="text-secondary">C/C++</h6>
+                         <div class="progress" style="height: 5px;">
+                             <div data-aos="fade-right"
+                              class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                         </div>
+                    </div>
+                   <div class="skill">
+                        <h6 class="text-secondary">Java</h6>
+                         <div class="progress" style="height: 5px;">
+                             <div data-aos="fade-right"
+                              class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                         </div>
+                    </div>
+                </div><!--skill-categ1-->
+                <div class=" col-lg-6 col-md-10 col-sm-12 skill-categ WebDevelopment ">
+                    <h4>Web Development</h4>
+                    <div class="skill">
+                        <h6 class="text-secondary">ASP.net</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                            class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6 class="text-secondary">Node.js</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                             class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6 class="text-secondary">PHP</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                             class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6 class="text-secondary">MVC</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                             class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6 class="text-secondary">Samantic Web</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                            class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div><!--skill-categ2-->
+                <div class=" col-lg-6 col-md-10 col-sm-12 skill-categ frontendDevelopment ">
+                    <h4>Front-End Development</h4>
+                    <div class="skill">
+                        <h6 class="text-secondary">JavaSecript</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                             class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6 class="text-secondary">Ajax</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                             class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6 class="text-secondary">Html/Html5</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                            class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6 class="text-secondary">CSS/CSS3</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                             class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6 class="text-secondary">Json/XML</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                             class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div><!--skill-categ3-->
+                <div class="col-lg-6 col-md-10 col-sm-12 skill-categ  Query ">
+                    <h4>Database Management System</h4>
+                    <div class="skill">
+                        <h6 class="text-secondary"> Microsoft SQL Server</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                             class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6 class="text-secondary"> MySQL</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                             class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div><!--skill-catreg4-->
+                <div class="col-lg-5 col-md-10 col-sm-12 skill-categ Software Development ">
+                    <h4>Version Control System</h4>
+                    <div class="skill">
+                        <h6 class="text-secondary"> Git</h6>
+                        <div class="progress" style="height: 5px;">
+                            <div data-aos="fade-right"
+                            class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 56%;" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div><!--skill4-->
+    
+            </div><!--End of Skills-->
+            <!-- #endregion Skills-->
+            <!-- #region Experience-->
+            <!--------------------------work experience-->
+            <div id="experience" >
+                <div class="mainExperience">
+                    <h2 class=" mainExperienceTitle">Experience</h2>
+                </div>
+                <div class="row shadow-lg bg-white rounded experience">
+                    <div  data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="800" class="col-lg-4 col-md-12 col-sm-12 experience-title">
+                        <div data-aos="fade-right"class="experience-title-details">
+                            <h5>Freelancer Web Developer</h5>
+                            <h6>2016 till Now</h6>
+                        </div>
+                    </div>
+                    <div  data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="800" class="col-lg-8 col-md-10 col-sm-10 experience-role">
+                        <div data-aos="fade-left" class="experience-role-details">
+                            <h4>Full Stack Developer</h4>
+                            <p class="text-secondary">
+                                Design and built E-commerce website for small companies using <br>
+                                PHP open sours project openCart and,
+                                Node.js with Express, React and MangoDB
+                            </p>
+                        </div>
+                    </div>
+                </div><!-----experience1-->
+                <div class="row shadow-lg bg-white rounded experience">
+                    <div  data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="800" class="col-lg-4 col-md-12 col-sm-12 experience-title">
+                        <div data-aos="fade-right" class="experience-title-details">
+                            <h5>Fameway</h5>
+                            <h6>2014 – 2015</h6>
+                        </div>
+                    </div>
+                    <div  data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="800" class="col-lg-8 col-md-10 col-sm-12 experience-role">
+                        <div data-aos="fade-left" class="experience-role-details">
+                            <h4>ASP.net Full Stack Developer</h4>
+                            <p class="text-secondary">
+                                Handling the RESTful API for E-commerce and cloud
+                                computing company.<br>
+                                Daily developing new features using Asp.net, JavaScript,
+                                EntityFramework.6, MVC 5, MS SQL, C#.
+                                    
+                            </p>
+                        </div>
+                    </div>
+                </div><!-----experience2-->
+                <!------------------------------education experience------------------>
+                <div class="mainExperience">
+                        <h2 class=" mainExperienceTitle">Education</h2>
+                    </div>
+                    <div class="row shadow-lg bg-white rounded experience">
+                        <div  data-aos="fade-up"
+                        data-aos-easing="linear"
+                        data-aos-duration="800" class="col-lg-4 col-md-12 col-sm-12 experience-title">
+                            <div data-aos="fade-right"class="experience-title-details">
+                                <h5>Bachelor's Degree</h5>
+                                <h6>2008 - 2013</h6>
+                            </div>
+                        </div>
+                        <div  data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="800" class="col-lg-8 col-md-10 col-sm-10 experience-role">
+                            <div data-aos="fade-left" class="experience-role-details">
+                                <h4>Bachelor of Computer Science</h4>
+                                <h6 class="text-secondary"> University of Damascus, Syria</h6>
+                                <p class="text-secondary">
+                                    Dept. Artificial Intelligent 70.40 GPA
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-----experience1-->
+                    <div class="row shadow-lg bg-white rounded experience">
+                        <div  data-aos="fade-up"
+                        data-aos-easing="linear"
+                        data-aos-duration="800" class="col-lg-4 col-md-12 col-sm-12 experience-title">
+                            <div data-aos="fade-right" class="experience-title-details">
+                                <h5>High School</h5>
+                                <h6>2006 – 2008</h6>
+                            </div>
+                        </div>
+                        <div  data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="800" class="col-lg-8 col-md-10 col-sm-12 experience-role">
+                            <div data-aos="fade-left" class="experience-role-details">
+                                <h4>Information Technology</h4>
+                                <p class="text-secondary">
+                                    Computer architecture and Operting System architecture
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-----experience2-->
+            </div><!-- #endregion Experience-->
+            <div id="contact" class="row shadow-lg p-3 mb-5 bg-white contact">
+
+            </div>
+        </div><!--wrapper-->
+        <!--Script-->
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
